@@ -9,6 +9,8 @@
 
     - name: pull docker image
       shell: docker pull abhimanyu03101997/docker_image
+    - name: running container
+      shell: docker run -it -d abhimanyu03101997/docker_image /bin/bash
 
  
       
